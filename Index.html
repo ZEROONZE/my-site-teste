@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ChatPro WhatsApp API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <meta name="description" content="API para WhatsApp" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Rubik:400,700,400i&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__logo">
+            <a href="#">
+              <img
+                src="img/logo-chatpro.svg"
+                alt="chatPro WhatsApp API"
+                width="160"
+                height="27"
+                class="header__logo__img"
+              />
+              <span class="header__slogan">WhatsApp API</span>
+            </a>
+          </div>
+
+          <nav class="header-nav">
+            <ul class="header__menu">
+              <li><a href="#description">Preços</a></li>
+              <li>
+                <a href="https://api.chatpro.com.br/gerador-de-links"
+                  >Gerador de Links</a
+                >
+              </li>
+              <li>
+                <a href="https://chatpro.readme.io/reference/status"
+                  >Documentação</a
+                >
+              </li>
+              <li>
+                <a href="https://api.chatpro.com.br/painel" target="_blank"
+                  >Login</a
+                >
+              </li>
+              <li>
+                <a href="#" data-fancybox data-type="ajax" class="button__menu"
+                  >Teste Grátis</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="banner">
+          <div class="banner__content content">
+            <div class="banner__1">
+              <h1 class="banner__title">API para WhatsApp</h1>
+              <p class="banner__subtitle">
+                Envie e receba mensagens de suporte ao cliente, alertas e
+                notificações automáticas, bots e muito mais.
+              </p>
+              <a href="#" class="button">Teste Grátis</a>
+              <p class="banner__footer">
+                Não necessita aprovação do WhatsApp. Comece agora mesmo a
+                desenvolver com nossa API.
+              </p>
+            </div>
+
+            <div class="banner__2">
+              <figure className="banner__video">
+                <video
+                  id="meu__video"
+                  width="480"
+                  height="270"
+                  class="banner__video__iframe"
+                  autoplay="{true}"
+                  loop="{true}"
+                  controls="{false}"
+                  alt="O que é o chatPro API"
+                  playsinline
+                  muted
+                >
+                  <source
+                    className="video"
+                    src="./img/video.mp4"
+                    type="video/mp4"
+                  />
+                  <source src="./img/video.mp4" type="video/ogg" />
+                  <track
+                    src="captions_en.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="english_captions"
+                  />
+                  <track
+                    src="captions_es.vtt"
+                    kind="captions"
+                    srclang="es"
+                    label="spanish_captions"
+                  />
+                </video>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="generator">
+          <div class="generator__content content">
+            <a href="gerador-de-links" class="generator__link">
+              <span
+                >Procurando um
+                <strong>Gerador de Link do WhatsApp</strong>
+                ? Clique aqui e obtenha o seu
+              </span>
+            </a>
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="features__content content">
+            <div class="features__triangle">
+              <div class="features__triangle__triangle">
+                <img
+                  src="img/28911.svg"
+                  alt="Triângulo"
+                  width="100"
+                  height="100"
+                />
+              </div>
+            </div>
+
+            <div class="features__text">
+              <span class="features__title">
+                <h2>
+                  Comunique-se com seus clientes usando o WhatsApp, o app de
+                  mensagens mais popular do mundo!
+                </h2>
+              </span>
+            </div>
+
+            <div class="features__resources">
+              <div class="resources__item">
+                <figure>
+                  <img
+                    src="img/icone1.png"
+                    loading="lazy"
+                    alt="Alertas e notificações"
+                    width="85"
+                    height="86"
+                    class="resources__icone"
+                  />
+                </figure>
+                <article>
+                  <h2 class="resources__titulo">
+                    Envie Alertas e Notificações
+                  </h2>
+                  <p class="resources__descricao">
+                    Utilize o WhatsApp para enviar mensagens de confirmação,
+                    agendamentos ou lembretes de forma confiável no app
+                    preferido do seu cliente.
+                  </p>
+                </article>
+              </div>
+              <div class="resources__item">
+                <figure>
+                  <img
+                    src="img/icone2.png"
+                    loading="lazy"
+                    alt="bots de I.A."
+                    width="85"
+                    height="86"
+                    class="resources__icone"
+                  />
+                </figure>
+                <article>
+                  <h2 class="resources__titulo">Integre com bots de I.A.</h2>
+                  <p class="resources__descricao">
+                    Utilize a API para integrar seu bot de inteligência
+                    artificial diretamente no WhatsApp da sua empresa.
+                  </p>
+                </article>
+              </div>
+              <div class="resources__item">
+                <figure>
+                  <img
+                    src="img/icone3.png"
+                    loading="lazy"
+                    alt="Livre Desenvolvimento"
+                    width="85"
+                    height="86"
+                    class="resources__icone"
+                  />
+                </figure>
+                <article>
+                  <h2 class="resources__titulo">Livre Desenvolvimento</h2>
+                  <p class="resources__descricao">
+                    A API dá liberdadade para que o desenvolvedor crie soluções
+                    que utilizem o WhatsApp como meio de comunicação.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <div class="features__information">
+              <span class="features__title">
+                <h3>Comece agora usar a API do WhatsApp</h3>
+                <p>
+                  Atualmente, a API oficial do WhatsApp for Business está
+                  limitada a um restrito grupo de médias e grandes empresas.
+                  Diante deste cenário, desenvolvemos o ChatPro WhatsApp API
+                  (API não-oficial) que permite aos desenvolvedores utilizar
+                  desde já todas as funcionalidades, sem a necessidade de
+                  aprovação da API oficial.
+                </p>
+              </span>
+            </div>
+
+            <div class="features__customers">
+              <div class="features__triangle">
+                <div class="features__triangle__triangle">
+                  <img
+                    src="img/trianguloBlue.png"
+                    alt="Triângulo"
+                    width="100"
+                    height="100"
+                  />
+                </div>
+              </div>
+              <h4>Empresas confiam no chatPro API</h4>
+              <article class="customers">
+                <div class="marcas__item">
+                  <img
+                    loading="lazy"
+                    src="img/logo-hughes.png"
+                    alt="HughesNet Internet via Satélite"
+                    width="182"
+                    height="30"
+                  />
+                </div>
+                <div class="marcas__item">
+                  <img
+                    loading="lazy"
+                    src="img/logo-odontocompany.png"
+                    alt="OdontoCompany"
+                    width="173"
+                    height="45"
+                  />
+                </div>
+                <div class="marcas__item">
+                  <img
+                    loading="lazy"
+                    src="img/logo-lifebox.png"
+                    alt="Lifebox Burger"
+                    width="121"
+                    height="39"
+                  />
+                </div>
+                <div class="marcas__item">
+                  <img
+                    loading="lazy"
+                    src="img/logo-grupoviamais.png"
+                    alt="Grupo Viamais"
+                    width="123"
+                    height="40"
+                  />
+                </div>
+                <div class="marcas__item">
+                  <img
+                    loading="lazy"
+                    src="img/logo-meuseguroauto.png"
+                    alt="Meu Seguro Auto"
+                    width="122"
+                    height="47"
+                  />
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="price" id="description">
+          <div class="price__content content">
+            <div class="price__title">
+              <h1 class="price__titulo">Preços</h1>
+              <h2 class="price__descricao">
+                Os créditos são consumidos apenas por mensagens enviadas e
+                confirmadas
+              </h2>
+            </div>
+
+            <div class="price__grid">
+              <div class="price__grid__content">
+                <div class="price__grid__item">
+                  <div class="price__grid__inner1">
+                    <p class="price__grid__qtd">
+                      <strong>2.500</strong>créditos
+                    </p>
+                    <p class="price__grid__valor">R$ <strong>0,14</strong></p>
+                    <p class="price__grid__valormsg">por mensagem*</p>
+                  </div>
+                  <div class="price__grid__inner2">
+                    <a
+                      href="#"
+                      data-fancybox
+                      data-type="ajax"
+                      class="button button__sec"
+                      >Teste grátis</a
+                    >
+                  </div>
+                </div>
+                <div class="price__grid__item">
+                  <div class="price__grid__inner1">
+                    <p class="price__grid__qtd">
+                      <strong>5.000</strong>créditos
+                    </p>
+                    <p class="price__grid__valor">R$ <strong>0,10</strong></p>
+                    <p class="price__grid__valormsg">por mensagem*</p>
+                  </div>
+                  <div class="price__grid__inner2">
+                    <a
+                      href="#"
+                      data-fancybox
+                      data-type="ajax"
+                      class="button button__sec"
+                      >Teste grátis</a
+                    >
+                  </div>
+                </div>
+                <div class="price__grid__item">
+                  <div class="price__grid__inner1">
+                    <p class="price__grid__qtd">
+                      <strong>10.000</strong>créditos
+                    </p>
+                    <p class="price__grid__valor">R$ <strong>0,07</strong></p>
+                    <p class="price__grid__valormsg">por mensagem*</p>
+                  </div>
+                  <div class="price__grid__inner2">
+                    <a
+                      href="#"
+                      data-fancybox
+                      data-type="ajax"
+                      class="button button__sec"
+                      >Teste grátis</a
+                    >
+                  </div>
+                </div>
+                <div class="price__grid__item">
+                  <div class="price__grid__inner1">
+                    <p class="price__grid__qtd">
+                      <strong>50.000</strong>créditos
+                    </p>
+                    <p class="price__grid__valor">R$ <strong>0,05</strong></p>
+                    <p class="price__grid__valormsg">por mensagem*</p>
+                  </div>
+                  <div class="price__grid__inner2">
+                    <a
+                      href="#"
+                      data-fancybox
+                      data-type="ajax"
+                      class="button button__sec"
+                      >Teste grátis</a
+                    >
+                  </div>
+                </div>
+                <div class="price__grid__item">
+                  <div class="price__grid__inner1">
+                    <p class="price__grid__qtd">
+                      <strong>100.000</strong>créditos
+                    </p>
+                    <p class="price__grid__valor">R$ <strong>0,04</strong></p>
+                    <p class="price__grid__valormsg">por mensagem*</p>
+                  </div>
+                  <div class="price__grid__inner2">
+                    <a
+                      href="#"
+                      data-fancybox
+                      data-type="ajax"
+                      class="button button__sec"
+                      >Teste grátis</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="price__footer">
+              <p>
+                (*) Consumo mínimo de 15 créditos diários por instância. Caso
+                não utilize a instância ou consuma menos de 15 créditos no dia,
+                será debitada a diferença em créditos.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="description container">
+          <div class="description__container">
+            <span class="description__titulo">
+              <h3>Precisa de ajuda?</h3>
+            </span>
+            <div class="description__content content">
+              <div class="central">
+                <a href="primeiros-passos" class="central-item">
+                  <img
+                    src="img/icone-primeiros-passos.svg"
+                    alt="Primeiros Passos"
+                    class="central-item__icone"
+                    width="120"
+                    height="120"
+                  />
+                  <h2 class="central-item__titulo">Primeiros Passos</h2>
+                  <p class="central-item__descricao">
+                    Começando agora? Entenda o que é a API, Conceitos e como
+                    realizar testes.
+                  </p>
+                </a>
+
+                <a href="faq" class="central-item">
+                  <img
+                    src="img/icone-faq.svg"
+                    alt="FAQ"
+                    class="central-item__icone"
+                    width="120"
+                    height="120"
+                  />
+                  <h2 class="central-item__titulo">FAQ</h2>
+                  <p class="central-item__descricao">
+                    Respostas às perguntas frequentes sobre a API.
+                  </p>
+                </a>
+
+                <a href="https://chatpro.readme.io/" class="central-item">
+                  <img
+                    src="img/icone-documentacao.svg"
+                    alt="Documentação"
+                    class="central-item__icone"
+                    width="120"
+                    height="120"
+                  />
+                  <h2 class="central-item__titulo">Documentação</h2>
+                  <p class="central-item__descricao">
+                    Conheça os métodos disponíveis para utilização da API com
+                    exemplos de código.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chatpro container">
+          <div class="chatpro__content content">
+            <div class="chatpro__inner1">
+              <img
+                src="img/ilustra-chatpro.png"
+                alt="Ilustração do chatPro - Atendimento múltiplo pelo WhatsApp"
+                loading="lazy"
+                width="200"
+                height="280"
+                class="chatpro__ilustra"
+              />
+            </div>
+            <div class="chatpro__inner2">
+              <h1 class="chatpro__titulo">
+                Conheça também o
+                <img
+                  src="img/logo-chatpro.svg"
+                  alt="logo chatPro WhatsApp API"
+                  width="120"
+                  height="31"
+                />
+              </h1>
+              <p class="chatpro__descricao">
+                Otimize o atendimento por WhatsApp da sua empresa.
+                Multi-atendimento, departamentos, respostas rápidas, relatórios
+                e muito mais.
+              </p>
+              <a href="https://www.chatpro.com.br" class="chatpro__botao button"
+                >Acesse o site</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer container">
+          <div class="footer__content content">
+            <p class="footer__aviso">
+              O chatPro WhatsApp API segue os mesmos termos de serviço do
+              WhatsApp. É importante que você leia atentamente a esses termos.
+              Você é responsável pelo uso da ferramenta e pelas consequências do
+              mau uso. Reforçamos que a API não é destinada para prática de
+              SPAM, e que o envio de mensagens indesejadas viola os termos de
+              serviço do WhatsApp. A violação dos termos pode acarretar no
+              bloqueio e banimento definitivo de sua conta no WhatsApp.
+            </p>
+            <div class="footer__contato">
+              <img
+                src="img/icone-rodape.png"
+                alt="contato"
+                width="60"
+                height="65"
+                class="footer__contato__icone"
+              />
+              <p class="footer__contato__p1">
+                Dúvidas ou sugestões, envie um email para
+                <a
+                  href="/cdn-cgi/l/email-protection#771418190316031837141f16030705185914181a591505"
+                  class="footer__email"
+                >
+                  <span
+                    data-cfemail="482b27263c293c27082b20293c383a27662b2725662a3a"
+                    >contato@chatpro.com.br
+                  </span>
+                </a>
+                ou preencha nosso
+                <a
+                  href="contato"
+                  data-fancybox
+                  data-type="ajax"
+                  class="footer__form"
+                  >formulário</a
+                >.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </section>
+  </body>
+</html>
